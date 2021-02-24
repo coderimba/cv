@@ -1,0 +1,41 @@
+/* TAG SELECTORS */
+
+body {
+  background-color: #e4f9f5; /* whole body changes to the indicated background color */
+}
+
+h1 {
+  color: #40514e;
+}
+
+h3 {
+  color: #40514e;
+}
+
+hr {
+  border-color: #11999e;
+  border-style: dotted none none; /* top of border is dotted, other sides no border */
+  border-width: 5px;
+  width: 5%; /* width is 5% of the entire webpage, so it changes with the size of the webpage */
+  /* height is by default 0px */
+  /* no need background-color since there is nothing within the borders */
+}
+
+a {
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color .5s;
+}
+
+a:hover {
+  background-color: #30e3ca;
+}
+
+a:active {
+  color: #11999e;
+}
+
+/* CLASS SELECTORS */
+.under {
+  text-decoration: underline;
+}
